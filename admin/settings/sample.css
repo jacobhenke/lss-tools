@@ -1,0 +1,139 @@
+/**
+ * Green Check and Red X icons are Licensed LGPL by David Vignoni:
+ * https://www.iconfinder.com/iconsets/nuvola2
+ *
+ * This CSS will appear as if it were at the root of the site,
+ * so any includes will need the full path...
+ *
+ * For example:
+ * wp-content/plugins/duplicate-checker/public/images/red-x.png
+ *
+ */
+
+.LSSDC_Init_Copy {
+}
+
+#LSSDC_results,
+#LSSDC_fields {
+	margin-bottom: 18px;
+}
+
+#LSSDC_fields:before,
+#LSSDC_fields:after,
+#LSSDC_results:before,
+#LSSDC_results:after {
+	display: table;
+	content: " ";
+}
+
+#LSSDC_fields:after,
+#LSSDC_results:after {
+	clear: both;
+}
+
+#LSSDC_fields span {
+	width: 100%;
+	box-sizing: border-box;
+}
+#LSSDC_form {
+	padding: 8px;
+}
+@media (min-width: 767px) {
+	#LSSDC_fields span {
+		width: 33.33333333%;
+		float: left;
+		position: relative;
+		padding-right: 10px;
+		padding-left: 10px;
+		display: block;
+	}
+	#LSSDC_form {
+		padding: 0;
+	}
+}
+
+#LSSDC_fields input {
+	margin: 0;
+	border-radius: 8px;
+	box-shadow: none;
+	font-size: 16px;
+	height: 40px;
+	line-height: 24px;
+	padding: 8px 12px;
+	display: block;
+	width: 100%;
+}
+
+.LSSDC_btn {
+	border: none;
+	border-radius: 8px;
+	box-shadow: none;
+	margin: 0;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	line-height: 24px;
+	padding-top: 8px;
+	padding-right: 1.5em;
+	padding-bottom: 8px;
+	padding-left: 1.5em;
+	font-size: 17px;
+}
+.LSSDC_btn:hover,
+.LSSDC_btn:focus {
+	text-decoration: none;
+}
+.LSSDC_btn:active {
+	outline: 0;
+}
+#LSSDC_results {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	border-spacing: 16px;
+}
+.LSSDC_Block {
+	background: #ECF0EF;
+	border-radius: 16px;
+	padding: 16px;
+	word-wrap: break-word;
+	display: table-cell;
+	width: 33.33333333%;
+	vertical-align: bottom;
+}
+.LSSDC_Block .LSSDC_btn {
+	margin-top: 12px;
+}
+.LSSDC_Biz_Title {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#LSSDC_Alert_Wrap {
+	display: table;
+	min-height: 48px;
+}
+#LSSDC_Alert {
+	padding: 16px;
+	padding-left: 68px;
+	display: table-cell;
+	vertical-align: middle;
+	min-height: 48px;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: normal;
+}
+.LSSDC_x {
+	background: url("wp-content/plugins/duplicate-checker/public/images/red-x.png") center left 14px/48px no-repeat;
+}
+.LSSDC_c {
+	background: url("wp-content/plugins/duplicate-checker/public/images/green-check.png") center left 14px/48px no-repeat;
+}
+#LSSDC_Alert_more {
+	margin-bottom: 16px;
+	padding: 16px;
+	margin-top: 0;
+	margin-bottom: 12px;
+}

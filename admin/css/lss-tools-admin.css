@@ -1,0 +1,13 @@
+.toplevel_page_duplicate_checker input[type="text"], .toplevel_page_duplicate_checker textarea {
+    width: 100%;
+}
+
+#duplicate_checker_settings\5b custom_css\5d {
+    min-height: 300px;
+}
+
+.LSSDCimg {
+    max-width: 90%;
+    margin: 6px auto;
+    display: block;
+}

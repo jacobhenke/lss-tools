@@ -1,0 +1,239 @@
+/**
+ * Green Check and Red X icons are Licensed LGPL by David Vignoni:
+ * https://www.iconfinder.com/iconsets/nuvola2
+ */
+
+.LSSW_Init_Copy {
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+#LSSW_results,
+.LSSW_fields {
+    margin-bottom: 18px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.LSSW_fields:before,
+.LSSW_fields:after,
+#LSSW_results:before,
+#LSSW_results:after {
+    display: table;
+    content: " ";
+}
+
+.LSSW_fields:after,
+#LSSW_results:after {
+    clear: both;
+}
+
+.LSSW_fields span {
+    width: 100%;
+    box-sizing: border-box;
+}
+#LSSW_form {
+    padding: 8px;
+}
+
+.LSSW_fields input[type="text"], .LSSW_fields input[type="tel"] {
+    margin: 0;
+    border: 2px solid #BDC3C7;
+    border-radius: 8px;
+    box-shadow: none;
+    color: #34495E;
+    font-size: 16px;
+    height: 40px;
+    line-height: 24px;
+    padding: 8px 12px;
+    transition: border 0.25s linear 0s, color 0.25s linear 0s, background-color 0.25s linear 0s;
+    display: block;
+    width: 100%;
+}
+.LSSW_label {
+    font-style: 0.8em;
+}
+.LSSW_results .LSSW_btn,
+.LSSW_fields .LSSW_btn {
+    border: none;
+    border-radius: 8px;
+    box-shadow: none;
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    transition: border 0.25s linear 0s, color 0.25s linear 0s, background-color 0.25s linear 0s;
+
+    line-height: 24px;
+    padding-top: 8px;
+    padding-right: 1.5em;
+    padding-bottom: 8px;
+    padding-left: 1.5em;
+    font-size: 17px;
+    background-color: #3498DB;
+    color: white;
+}
+.LSSW_btn:hover,
+.LSSW_btn:focus,
+.LSSW_fields .LSSW_btn:hover,
+.LSSW_fields .LSSW_btn:focus {
+    text-decoration: none;
+    background-color: #5DADE2;
+    color: white;
+}
+.LSSW_btn:active {
+    background-color: #2C81BA;
+    outline: 0;
+}
+#LSSW_loading {
+    text-align: center;
+    z-index: 600;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+#LSSW_loading img {
+    width: 64px;
+    height: 64px;
+    vertical-align: top;
+}
+#LSSW_low_wrap {
+    position: relative;
+}
+#LSSW_wrap {
+    max-width: 800px;
+    min-height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#LSSW_low_wrap:before,
+#LSSW_low_wrap:after {
+    display: table;
+    content: " ";
+}
+#LSSW_low_wrap .error {
+    color: red;
+    font-weight: bold;
+}
+#LSSW_next_step, #LSSWclone {
+    max-width: 800px;
+}
+#LSSWclone {
+    opacity: 0.7;
+    min-width: 100%;
+}
+.LSSW_results {
+    margin: 0 0 12px 0;
+}
+.LSSW_results:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.LSSW_results .LSSW_URL {
+    font-size: 0.8em;
+    /*padding-bottom: 8px;*/
+}
+.LSSW_Col {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 12px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.LSSW_Block {
+    background: #ECF0EF;
+    border-radius: 16px;
+    padding: 16px;
+    padding-bottom: 80px;
+    word-wrap: break-word;
+    position: relative;
+    min-height: 140px;
+}
+.LSSW_Block .LSSW_btn {
+    margin-top: 12px;
+    width: inherit;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    position: absolute;
+    line-height: 1;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.LSSW_Biz_Title {
+    font-weight: bold;
+    font-size: 18px;
+    min-height: 2.5em;
+}
+.LSSW_Address {
+    min-height: 5em;
+}
+
+#LSSW_Alert_Wrap {
+    display: table;
+    min-height: 48px;
+}
+#LSSW_Alert {
+    padding: 16px;
+    padding-left: 68px;
+    display: table-cell;
+    vertical-align: middle;
+    min-height: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+}
+.LSSW_x {
+    background: url("../images/red-x.png") center left 14px/48px no-repeat;
+}
+.LSSW_c {
+    background: url("../images/green-check.png") center left 14px/48px no-repeat;
+}
+#LSSW_Alert_more {
+    padding: 16px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+#LSSW_keyword,
+#LSSW_contact {
+    font-size: 0.8em;
+}
+#LSSW_keyword *,
+#LSSW_contact * {
+    margin: 0 0 0 0.25em;
+}
+
+@media (min-width: 1000px) {
+    .LSSW_fields span {
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 10px;
+        padding-left: 10px;
+        display: block;
+    }
+    .LSSW_fields span#LSSW_query_wrap {
+        width: 66.66666667%;
+    }
+    .LSSW_fields span#LSSW_btn_wrap {
+        width: 33.33333333%;
+    }
+    .LSSW_form {
+        padding: 0;
+    }
+    .LSSW_Col {
+        float: left;
+        padding-right: 16px;
+        padding-left: 0;
+        width: 50%;
+        margin: 0;
+    }
+    .LSSW_Col:nth-of-type(3n) {
+        padding-right: 0;
+    }
+}
