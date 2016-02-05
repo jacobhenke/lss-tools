@@ -16,7 +16,7 @@
  * Plugin Name:       Local SEO Tools
  * Plugin URI:        http://www.localsitesubmit.com/local-seo-tools
  * Description:       The Local Site Submit widget, and other tools.
- * Version:           0.9.0
+ * Version:           0.9.1
  * Author:            Local Site Submit
  * Author URI:        http://www.localsitesubmit.com/
  * License:           GPL-2.0+
