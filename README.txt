@@ -1,3 +1,9 @@
+# NOTE!
+
+The backend API required for this plugin to work was never implemented. This is just here for historical purposes.
+
+
+
 === Plugin Name ===
 Contributors: jacobdh
 Tags: local search
